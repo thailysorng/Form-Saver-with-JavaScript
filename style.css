@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-login{
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(123, 123, 123, 0.45);
+}
+
+.box-login h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'poppins';
+    padding-top: 10px;
+}
+
+.box-login .form{
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    background-color: rgb(157, 148, 148);
+    display: flex;
+    justify-content: center;
+}
+
+.box-login .form form{
+    border-radius: 10px;
+    width: 80%;
+    background-color: rgb(124, 118, 115);
+}
+
+.box-login .form form label{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.426);
+}
+
+.box-login .form form input{
+    margin: 0 0 5px 20px;
+    width: 95%;
+}
+
+.box-login .form form .butt{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.box-login .form form .butt button{
+    font-size:25px;
+    margin-bottom: 10px;
+}
+
+table{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+table thead tr{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Battambang', system-ui;
+    color: rgba(0, 0, 0, 0.531);
+    background-color: rgb(45, 96, 138);
+}
+
+table tbody tr{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Battambang', system-ui;
+    background-color: rgba(189, 187, 194, 0.616);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body style="background-color: #b4b0b0;">
+    <div class="box-login">
+        <h1>Registration Form</h1>
+        <div class="form">
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="" placeholder="Enter your name" class="form-control">
+    
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="" placeholder="Enter your email" class="form-control">
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="" placeholder="Enter your password" class="form-control">
+    
+                <label for="phonenumber">PhoneNumber:</label>
+                <input type="text" id="phonenumber" name="" placeholder="Enter your phone number" class="form-control">
+                <br>
+                <div class="butt">
+                    <button id="add" type="button" class="btn bg-info btn-sm">Save Data</button>
+                    <button id="clear" type="button" class="btn bg-danger btn-sm">Clear Data</button>
+                </div>
+            </form>
+        </div>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>PhoneNumber</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
